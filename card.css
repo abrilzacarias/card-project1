@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    background-image: url("pattern-background-desktop.svg");
+    background-color: #E0E8FF;
+    background-repeat: no-repeat; 
+
+}
+
+.box {
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 600px;
+    border-radius: 25px;
+    margin: auto;
+    
+}
+
+#pic1 {
+    border-radius: 25px 25px 0px 0px;
+    width: 400px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.text {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-family: 'Red Hat Display';
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    padding-bottom: 20px;
+}
+
+.box_2 {
+    background-color: hsl(228, 56%, 98%);
+    width: 320px;
+    height: 90px;
+    margin: auto;
+    border-radius: 20px;
+
+}
+
+#pic2 {
+    float: left;
+    margin: 20px 0px 10px 20px;
+
+}
+
+#plan {
+    color: hsl(223, 47%, 23%);
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    float: right;
+    padding-right: 140px;
+    margin: 20px 0px 0px 0px ;
+} 
+
+#price {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    float:right;
+    padding-right: 140px;
+    padding-bottom: 40px;
+    margin: 5px 0px 0px 0px;
+}
+
+#change {
+    color: hsl(223, 47%, 23%);
+    font-size: 14px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    text-align: right;
+}
