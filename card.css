@@ -56,12 +56,12 @@ h1 {
 
 #plan {
     color: hsl(223, 47%, 23%);
-    font-size: 16px;
+    font-weight: 800;
+    font-size: 17px;
     font-family: 'Red Hat Display', sans-serif;
-    font-weight: 600;
-    float: right;
-    padding-right: 140px;
-    margin: 20px 0px 0px 0px ;
+    float: left;
+    margin: 20px 0px 0px 20px ;
+
 } 
 
 #price {
@@ -69,16 +69,50 @@ h1 {
     font-size: 16px;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 500;
-    float:right;
-    padding-right: 140px;
-    padding-bottom: 40px;
-    margin: 5px 0px 0px 0px;
+    float: left;
+    margin: 5px 0px 0px 20px ;
+
 }
 
 #change {
-    color: hsl(223, 47%, 23%);
+    color: hsl(245, 75%, 53%);
     font-size: 14px;
     font-family: 'Red Hat Display', sans-serif;
-    font-weight: 600;
-    text-align: right;
+    font-weight: 800;
+    float: right;
+    margin: 40px 20px 0px 40px ;
+    transition:none ;
+}
+
+#change:hover {
+    color: hsl(224, 23%, 55%);
+}
+
+#box_3 {
+    width: 310px;
+    height: 45px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 53%);
+    box-shadow: 5px 15px 15px 0px hsla(224, 23%, 55%, 0.377);
+    
+
+}
+
+#pay {
+    color:hsl(228, 56%, 98%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
+    padding: 14px;
+}
+
+#cancel {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    padding-top: 20px; 
 }
