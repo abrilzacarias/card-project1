@@ -13,7 +13,7 @@ body {
     height: 600px;
     border-radius: 25px;
     margin: auto;
-    
+    box-shadow: 5px 10px 15px 2px hsla(224, 23%, 55%, 0.288);
 }
 
 #pic1 {
@@ -99,7 +99,7 @@ h1 {
 }
 
 #box_3:hover {
-    color: hsl(245, 83%, 69%);
+    background-color: hsl(245, 83%, 69%);
 }
 
 
